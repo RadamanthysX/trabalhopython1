@@ -1,0 +1,20 @@
+Questão 4 da Lista 2:
+
+Faça um Programa que peça a idade e a altura de 5 pessoas,
+armazene cada informação no seu respectivo índice.
+Imprima a idade e a altura na ordem inversa a ordem lida.
+
+------------------------------------------------------------------------------------------------
+
+Para realizar a proposta dessa questão, tive que usar Lista[] para armazenar e reexibir os dados
+
+Primeiramente, criei uma Lista "idades" e uma lista "alturas" e depois integrei as duas utilizando
+a repetição "for" com uma extensão (range) de 5 variáveis para armazenar, além de criar uma variável
+para armazenar os nomes(i) para relacionar com as Idades e Alturas.
+Depois, através do "for", crio um ciclo de repetições que irá pedir o nome da pessoa, idade e altura
+e vai adicionando a idade e altura em suas respectivas listas. 
+A pessoa deverá repetir o processo até atingir as 5 pessoas necessárias pelo programa, após preenchido
+o programa começará exibindo as Alturas e Idades de forma inversa ao que foi digitado, para que isso ocorra
+utilizei o comando [::-1] que imprime o ultimo item da lista e retrocede até o ínicio da mesma.
+Após exibir a Altura e Idade invertido, o programa exibirá a Altura e Idade novamente, mas, dessa vez, com
+a ordem correta (insirida inicialmente)

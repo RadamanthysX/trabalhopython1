@@ -1,0 +1,35 @@
+Questão 1 da Lista 1:
+Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu
+peso ideal, utilizando as seguintes fórmulas:
+a. Para homens: (72.7*h) - 58
+b. Para mulheres: (62.1*h) - 44.7
+
+---------------------------------------------------------------------------------------------------------
+
+A Proposta que passei nesse código era criar uma ideia de menu simplificado, onde a pessoa escolha uma
+das opções válidas ou fique preso num looping.
+Depois de selecionada uma opção válida, ele deve inserir o que está sendo solicitado e após a inclusão,
+tem uma interpretação da informação para criar uma outra (como solicitado na proposta)
+
+Para fazer isso, utilizei uma variável(resp) pra comparar a opção inserida pelo usuário e as disponíveis 
+no menu e, a partir da opção selecionada, uma das ações será realizada.
+Essas ações podem ser:
+
+Caso Selecionado a Opção '1' 
+    A Pessoa irá inserir a sua ou a altura de alguma pessoa do sexo masculino
+    Essa informação é armazenada pela variável 'h'
+    Uma fórmula será utilizada para ver o Peso Ideao através da variável(m)
+    Fornecerá uma impressão informando o que deveria ser o Peso Ideal utilizando a variavel(m)
+
+Caso Selecionado a Opção '2' 
+    A Pessoa irá inserir a sua ou a altura de alguma pessoa do sexo feminino
+    Essa informação é armazenada pela variável 'h'
+    Uma fórmula será utilizada para ver o Peso Ideao através da variável(m)
+    Fornecerá uma impressão informando o que deveria ser o Peso Ideal utilizando a variavel(m)
+
+Caso Selecionado a Opção '3' 
+    Fornecerá uma impressão informando o que a Pessoa Escolheu Sair do Sistema.
+    E fecha o programa através o "exit()"
+
+Caso Selecionado qualquer número que não seja as comentadas anteriormente:
+    O Menu é Reexibido e aparecerá uma mensagem dizendo que a opção selecionada não é válida

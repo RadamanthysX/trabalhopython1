@@ -1,0 +1,15 @@
+Questão 3 da Lista 2:
+
+Faça um Programa que peça um número e informe se o número é inteiro ou decimal.
+
+-----------------------------------------------------------------------------------------------------------
+
+Primeiramente o programa começa informando uma mensagem de boas vindas e, após isso, pede ao usuário para 
+entrar com um número que ele deseja saber se é inteiro ou decimal.
+Será armazenado na variavel "num" onde abrirá uma estrutura de condiçao que irá pegar o número informado
+e vai verificar se o resto da divisao dele com 1 é igual a 0.
+Sendo ele igual a 0, o programa vai rodar a função criada chamada "mensagem" que mostrará no console 
+que o número é inteiro
+
+Caso contrário, sendo o resto da divisao diferente de 0, o programa exibirá função mensagem, fornecendo a
+informação no console que o numero é decimal

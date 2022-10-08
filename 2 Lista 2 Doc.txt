@@ -1,0 +1,11 @@
+Questão 2 da Lista 2:
+
+Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar
+
+-------------------------------------------------------------------------------------------
+
+Essa tem uma lógica bastante simples de se interpretar, visto que, seu códgo é bem simples.
+Para ser feito, coloquei uma variável(n) que deve ser um número inteiro.
+Depois, através da condição if-else, realizo a extração do resto de divisão(%) e vejo se é igual a 0
+Sendo igual a 0, informo que o número é Par;
+Caso contrário, informo que o número é Ímpar.
